@@ -39,8 +39,10 @@ div.search_select_box
 <%
 response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");%>
 <div>
-<form class="new" onsubmit="return validAccNo();" id="myForm" name="myForm">
-<label for="AccNum"><b>From:</b></label><br><br>
+<form class="operation" onsubmit="return validAccNo();" id="myForm" name="myForm">
+<label for="AccNum"><b>From:</b></label>
+<br>
+<br>
 <div class="search_select_box">
 <select name="AccNum" id="AccNum" required data-live-search="true">
 <option value="0">select</option>

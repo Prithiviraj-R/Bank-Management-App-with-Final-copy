@@ -24,7 +24,7 @@
 <div>
 <form class="new">
 <%Customer obj=(Customer) session.getAttribute("Customer");%>
-<h3>Customer Details</h3>
+<br>
 <label><b>Name:</b></label>
 <h3><%out.println(obj.getName());%></h3>
 <br>

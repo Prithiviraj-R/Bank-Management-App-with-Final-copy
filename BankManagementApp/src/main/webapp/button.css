@@ -7,7 +7,7 @@ button
 	font-style:bold;
 	font-size:15px;
 	opacity:0.9;
-	 box-shadow:3px 3px 3px rgba(31,38,135,.37);
+	box-shadow:3px 3px 3px rgba(31,38,135,.37);
 	background:#F2882F;
 	padding:10px;
 	border:none;
@@ -21,9 +21,9 @@ button.button
 	color:black;
 	font-style:bold;
 	font-size:15px;
-	opacity:0.9;
 	box-shadow:3px 3px 3px rgba(31,38,135,.37);
 	background:#F2882F;
+	opacity:0.9;
 	padding:10px;
 	border:none;
 	outline:none;
@@ -58,7 +58,6 @@ input
 	color:black;
 	border-bottom:2px solid black;
 	opacity:.8;
-	text-align:center;
 }
 select
 {
@@ -73,5 +72,4 @@ select
 	outline:none;
 	border-radius:20px;
 	box-shadow:3px 3px 5px rgba(31,38,135,.37);
-	text-align:center;
 }

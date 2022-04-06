@@ -120,7 +120,7 @@ public class Database implements Persistence
 		boolean status=cusObj.isStatus();
 		long mobile=cusObj.getPhoneNumber();
 		int add=insertTable("insert into customerInfo(name,dob,address,status,mobileNo) values('"+ name +"','"+dob+"','"+ address +"',"+status+","+mobile+");");
-		userMaintainance(add);
+//		userMaintainance(add);
 		return add;
 	}
 	
